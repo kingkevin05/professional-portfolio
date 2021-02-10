@@ -7,11 +7,52 @@
 body {
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
 }
 /* header styles */
 header {
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 110px;
+    padding: 10px;
+    background-color: #444444;
+    display: flex;
+    align-items: center;
 
 }
-Header h1 {
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+header h1 {
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.48);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+
+
+}
+header nav {
+    margin: 10px 0;
+
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.48);
+    color: #91e4fb;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 25px;
 
 }
