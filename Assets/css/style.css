@@ -9,8 +9,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: blanchedalmond;
 }
+
 /* header styles */
 header {
+    z-index: 9999;
     background-size: cover;
     position: sticky;
     top: 0;
@@ -55,4 +57,99 @@ header nav ul li a {
     text-align: center;
     padding: 10px 25px;
 
+}
+section {
+    padding: 60px;
+}
+body h2 {
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.45);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: right;
+}
+
+/* about me styles */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about-me {
+    padding-right: 30px;
+    flex: 3;
+}
+.about-img {
+    flex: 1.5;
+}
+.about-img img {
+    height: auto;
+    max-width: 100%;
+    border: 10px solid black;
+}
+.bio {
+    height: auto;
+    display: flex;
+    padding: 20px 0;
+}
+.bio p {
+    color: #444444;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 1.3;
+    text-align: right;
+    width: 100%;
+}
+/* work section styles */
+article {
+    
+}
+article a {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.first-app {
+    flex: 2
+}
+.sites {
+    flex: 1;
+    
+}
+.run-buddy-img {
+    position: relative;
+}
+.run-buddy-img img {
+    
+    height: auto;
+    max-width: 100%;
+    border: 10px solid black;
+}
+.run-buddy {
+    position: absolute;
+    top: 80%;
+    left: 10px;
+    width: 25%;
+    height: 10%;
+    font-size: 25px;
+    background: #ffffff;
+}
+.run-buddy a {
+
+}
+.my-work {
+    display: flex;
+}
+
+/* contact me styles */
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.contact h4 {
+    font-size: larger;
+}
+.contact a {
+    font-size: larger;
 }
