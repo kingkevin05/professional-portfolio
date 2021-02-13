@@ -177,3 +177,54 @@ article img {
     display: flex;
     justify-content: center;
 }
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        position: relative;
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        justify-content: center;
+    }
+    .contact a, .contact h4 {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        position: relative;
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        padding: 10px 5px;
+    }
+    section {
+        padding: 30px 15px;
+    }
+    .bio {
+        padding: 30px;
+    }
+    .contact a, .contact h4 {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
