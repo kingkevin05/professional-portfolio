@@ -18,7 +18,6 @@ header {
     top: 0;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 110px;
     padding: 10px;
     background-color: #444444;
     display: flex;
@@ -67,6 +66,9 @@ body h2 {
     font-weight: bold;
     font-size: 38px;
     text-align: center;
+    margin: 0 30%;
+    padding: 20px 0;
+    border-bottom: #000 solid 8px;
 }
 
 /* about me styles */
@@ -102,6 +104,7 @@ body h2 {
     width: 100%;
 }
 /* work section styles */
+
 article {
     
 }
@@ -111,46 +114,66 @@ article a {
     color: #000;
     text-decoration: none;
 }
-.first-app {
-    flex: 2
+.apps {
+    flex: auto;
+    padding: 10px;
 }
-.sites {
-    flex: 1;
-    
-}
-.run-buddy-img {
+.app-img {
     position: relative;
 }
 article img {
-    
     height: auto;
     max-width: 100%;
-    border: 10px solid black;
+    border: thick solid black;
 }
-.run-buddy {
+.app-title {
     position: absolute;
-    top: 80%;
-    left: 10px;
-    width: 25%;
-    height: 10%;
-    font-size: 25px;
+    left: 6px;
+    bottom: 10px;
     background: #ffffff;
 }
 .run-buddy a {
+    text-align: center;
+    padding: 0 20px;
+}
+.work {
 
 }
 .my-work {
     display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
 }
 
 /* contact me styles */
 .contact {
+    text-shadow: 0px 5px 5px rgb(0 0 0 / 48%);
+    color: #91e4fb;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    text-align: center;
+    padding: 17px 25px;
+
 }
 .contact h4 {
-    font-size: larger;
+    font-size: 30px;
+    padding: 0px 30px;
 }
 .contact a {
-    font-size: larger;
+    text-shadow: 0px 5px 5px rgb(0 0 0 / 48%);
+    color: #91e4fb;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 30px;
+}
+.contact-container {
+    background-size: cover;
+    bottom: 0;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #444444;
+    display: flex;
+    justify-content: center;
 }
