@@ -194,7 +194,6 @@ article img {
         padding: 10px;
     }
 }
-
 @media screen and (max-width: 575px) {
     header {
         position: relative;
@@ -217,6 +216,7 @@ article img {
         padding: 10px;
     }
 
+ 
     header nav ul {
         margin-top: 20px;
         width: 100%;
